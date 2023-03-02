@@ -1,0 +1,81 @@
+/* container */
+.container{
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(99.6deg, rgb(112, 128, 152) 10.6%, rgb(242, 227, 234) 32.9%, rgb(234, 202, 213) 52.7%, rgb(220, 227, 239) 72.8%, rgb(185, 205, 227) 81.1%, rgb(154, 180, 212) 102.4%);
+  display: block;
+  padding: 30px 20px;
+  margin: 20px auto;
+  
+}
+ /* displaying the header */
+h1 {
+  text-align: center;
+  font-size: 40px;
+  color: blue;
+}
+/* displaying current city and search engine */
+form {
+  margin: 30px;
+  text-align: center;
+}
+
+#city,button {
+  margin-left: 20px;
+  padding: 10px;
+  font-size: 1rem;
+  color:  #121435 ;
+  border-radius: 18px;
+  border: 1px solid #4ed99c;
+}
+/*display results*/
+#weather-info {
+  margin-top: 20px;
+  text-align: center;
+  color: #bb3939;
+  font-size: 1.5rem;
+}
+/*display five day forecast*/
+#five-day-forecast {
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  gap: 10px;
+  margin: 20px;
+  padding: 10px;
+  font-size: 1.5rem;
+  text-align: center;
+  color:#121435 ;
+  transition: 200ms;
+}
+/*display different timezones*/
+#datetime {
+  text-align: center;
+  font-size: 1rem;
+  color: #333;
+}
+
+
+#timezone-select {
+  font-size: 1rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+h2 {
+  margin: 0;
+  font-weight: normal;
+  line-height: 1.5;
+}
+/*display day,date and time*/
+#day {
+  font-size: 3rem;
+}
+
+#date {
+  font-size: 2rem;
+}
+
+#time {
+  font-size: 3rem;
+}

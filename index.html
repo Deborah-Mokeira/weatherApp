@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+  <header>
+    <h1>Weather App</h1>
+  </header>
+
+  <main>
+    <!--adding current city and search engine-->
+      <form>
+      <input type="text" id="city" placeholder="Enter city name">
+      <button type="button" onclick="getWeather()">Search</button>
+    </form>
+    <button type="button" onclick="getCurrentLocation()">Current Location</button>
+<!--adding weather info-->
+    <div id="weather-info"></div>
+    <!--adding five day forecast-->
+    <div id="five-day-forecast"></div>
+    <!--adding timezones-->
+    <div id="datetime">
+      <label for="timezone-select">Select a timezone:</label>
+      <select id="timezone-select" aria-label="Timezone">
+        <option value="America/New_York">New York</option>
+        <option value="America/Chicago">Chicago</option>
+        <option value="America/Denver">Denver</option>
+        <option value="America/Los_Angeles">Los Angeles</option>
+        <option value="Europe/London">London</option>
+        <option value="Europe/Paris">Paris</option>
+        <option value="Asia/Tokyo">Tokyo</option>
+        <option value="Australia/Sydney">Sydney</option>
+      </select>
+      <!--adding day,date and time-->
+      <h2 id="day"></h2>
+      <h2 id="date"></h2>
+      <h2 id="time"></h2>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</div>
+</body>
+</html>
