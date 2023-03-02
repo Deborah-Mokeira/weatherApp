@@ -27,4 +27,6 @@ The app was built using the following resources:
 -OpenWeatherMap API
 -Bootstrap
 -jQuery
+-HTML5
+-CSS3
 
