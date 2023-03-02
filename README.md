@@ -1,6 +1,5 @@
 # weatherApp
 
-
 This is a simple weather application built using HTML, CSS, and JavaScript. The app allows users to enter the name of a city and get the current weather conditions for that location.
 
 Features
