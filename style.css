@@ -79,3 +79,11 @@ h2 {
 #time {
   font-size: 3rem;
 }
+/*displaying the footer*/
+p{
+  margin: 10px;
+  font-size: 1rem;
+    }
+#name{
+  color: #ff0000;
+}
