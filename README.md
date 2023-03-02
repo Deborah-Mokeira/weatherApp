@@ -10,7 +10,7 @@ Features
 Getting Started
 
 To get started, clone the repository to your local machine and open the index.html file in your web browser.
--git clone https://github.com/Debora-Mokeira/weather-app.git
+-git clone https://github.com/yourusername/weather-app.git
 
 
 To use the app;
