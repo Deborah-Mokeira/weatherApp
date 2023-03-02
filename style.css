@@ -61,13 +61,13 @@ form {
   margin-bottom: 1rem;
   color: #333;
 }
-
+/*display day,date and time*/
 h2 {
   margin: 0;
   font-weight: normal;
   line-height: 1.5;
 }
-/*display day,date and time*/
+
 #day {
   font-size: 3rem;
 }
