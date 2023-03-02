@@ -22,7 +22,6 @@ Requirements
 The app requires an internet connection to retrieve weather data from the OpenWeatherMap API.
 
 Acknowledgments
-
 The app was built using the following resources:
 
 -OpenWeatherMap API
